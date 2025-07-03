@@ -1,0 +1,13 @@
+name: TagPlugin
+version: 1.0.0
+main: com.yourname.tagplugin.TagPlugin
+api-version: 1.21
+commands:
+  settag:
+    description: 플레이어의 네임태그를 설정합니다.
+    usage: /settag <태그>
+    permission: tagplugin.settag
+permissions:
+  tagplugin.settag:
+    description: 네임태그를 설정할 수 있는 권한
+    default: op
